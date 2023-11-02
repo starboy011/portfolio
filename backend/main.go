@@ -38,6 +38,8 @@ func GetNameHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	c := cors.AllowAll()
+	http.Handle("/api/getName", c.Handler(http.HandlerFunc(GetNameHandler)))
+	http.ListenAndServe(":8080", nil)
 
 	clientOptions := options.Client().ApplyURI("mongodb+srv://starboy011:Pranav123%40@cluster0.otyqhv4.mongodb.net/")
     client, err := mongo.Connect(context.TODO(), clientOptions)
@@ -68,6 +70,5 @@ func main() {
     log.Println("Name inserted successfully.")
 
 
-	http.Handle("/api/getName", c.Handler(http.HandlerFunc(GetNameHandler)))
-	http.ListenAndServe(":8080", nil)
+	
 }
