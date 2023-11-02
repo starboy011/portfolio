@@ -1,29 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import "./app.scss"
+import Navbar from "./components/navbar/Navbar"
 
-const App = () => {
-  const [name, setName] = useState('');
-
-  useEffect(() => {
-    fetch('http://localhost:8080/api/getName')  // Specify the full URL of your Go backend
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setName(data.name);
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
-  }, []);
-
+function App() {
   return (
-    <div className="App">
-      <h1>Name: {name}</h1>
+    <div>
+      <section><Navbar/></section>
+      <section>Parallax</section>
+      <section>Services</section>
+      <section>Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section>Contact</section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
