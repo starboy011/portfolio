@@ -11,7 +11,7 @@ const Navbar = () => {
         animate={{opacity:1, scale:1}} 
         transition={{duration:0.5}}
         >
-            Rishav Choudhary
+            Starboy
         </motion.span>
         <div className="social">        
         <a href="#"><motion.img src="/github.jpg" alt="" 

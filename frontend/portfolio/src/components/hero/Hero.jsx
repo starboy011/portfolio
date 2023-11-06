@@ -3,6 +3,7 @@ import "./hero.scss"
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="wrapper">
       <div className="textContainer">
         <h2>Rishav Choudhary</h2>
         <h1>Full Stack Developer</h1>
@@ -11,6 +12,7 @@ const Hero = () => {
           <button>Contact me</button>
         </div>
         <img src="./scroll.png"/>
+      </div>
       </div>
       <div className="imageContainer">
         <img src="/hero.png"/>
