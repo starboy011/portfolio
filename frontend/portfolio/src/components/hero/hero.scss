@@ -3,7 +3,6 @@
     background: linear-gradient(108deg,#0c0c1d, #111132);
     overflow: hidden;
     position: relative;
-    margin-left: 300px;
     .wrapper{
         max-width: 1336px;
         height:100%;
@@ -47,8 +46,15 @@
         top: 0;
         right: 0;
         img{
-            height: 800px;
+            height: 1000px;
             opacity: 0.3;
         }
+    }
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color:#ffffff09;
     }
 }
