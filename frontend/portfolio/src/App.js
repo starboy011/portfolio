@@ -2,6 +2,7 @@ import "./app.scss"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import Parallax from "./components/parallax/Parallax"
+
 function App() {
   return (
     <div>
