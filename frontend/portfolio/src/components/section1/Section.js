@@ -4,7 +4,7 @@ import "./Section.css"; // Import CSS file
 const Section = () => {
   return (
     <>
-      <div className="section-container">Rishav</div> {/* Apply class name */}
+      <div className="section-container"></div> {/* Apply class name */}
     </>
   );
 };

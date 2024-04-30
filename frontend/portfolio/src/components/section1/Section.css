@@ -1,4 +1,8 @@
 .section-container {
     height: 100vh;
+    background-image: url('./computer.jpeg');
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.5;
   }
   
