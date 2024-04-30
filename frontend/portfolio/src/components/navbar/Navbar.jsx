@@ -11,33 +11,28 @@ const Navbar = () => {
         animate={{opacity:1, scale:1}} 
         transition={{duration:0.5}}
         >
-            Starboy
+            
         </motion.span>
         <div className="social">        
-        <a href="#"><motion.img src="/github.jpg" alt="" 
+        <a href="https://github.com/starboy011"><motion.img src="/github.jpg" alt="" 
         initial={{opacity:0, scale:0.5}} 
         animate={{opacity:1, scale:1}} 
         transition={{duration:0.5}}
         /></a>
-        <a href="#"><motion.img src="/gfg.jpg" alt=""
+        <a href="https://www.geeksforgeeks.org/user/starboy081/"><motion.img src="/gfg.jpg" alt=""
         initial={{opacity:0, scale:0.5}} 
         animate={{opacity:1, scale:1}} 
         transition={{duration:1}}
         /></a>
-        <a href="#"><motion.img src="/linkedin.jpg" alt=""
+        <a href="https://www.linkedin.com/in/rishavchoudhary081/"><motion.img src="/linkedin.jpg" alt=""
         initial={{opacity:0, scale:0.5}} 
         animate={{opacity:1, scale:1}} 
         transition={{duration:1.5}}
         /></a>
-        <a href="#"><motion.img src="/instagram.png" alt=""
+        <a href="https://drive.google.com/file/d/1zVsfLFCAYbumdlCqkAyi0ZN_G0Hqcjqk/view?usp=drive_link"><motion.img src="/drive.png" alt=""
         initial={{opacity:0, scale:0.5}} 
         animate={{opacity:1, scale:1}} 
         transition={{duration:2}}
-        /></a>
-        <a href="#"><motion.img src="/facebook.png" alt=""
-        initial={{opacity:0, scale:0.5}} 
-        animate={{opacity:1, scale:1}} 
-        transition={{duration:2.5}}
         /></a>
         </div>
     </div>
