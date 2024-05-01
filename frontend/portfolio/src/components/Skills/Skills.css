@@ -1,3 +1,10 @@
 .container{
     height: 100vh;
 }
+.skilltitlecontainer{
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
