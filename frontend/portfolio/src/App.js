@@ -5,10 +5,8 @@ import Section from "./components/section1/Section";
 function App() {
   return (
     <div>
-      <section id="Homepage">
-        <Navbar />
-        <Hero />
-      </section>
+      <Navbar />
+      <Hero />
       <Section />
     </div>
   );

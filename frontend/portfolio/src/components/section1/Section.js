@@ -1,40 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./Section.css"; // Import CSS file
 
 const Section = () => {
-  const [characters, setCharacters] = useState([]);
-
-  useEffect(() => {
-    // Function to generate random position for characters
-    const randomPosition = () => {
-      const min = 10; // Minimum distance from top/left
-      const max = 80; // Maximum distance from top/left
-      return `${Math.floor(Math.random() * (max - min + 1) + min)}%`;
-    };
-
-    // Split the text into characters
-    const text = "Gather 'round, folks, for the epic tale of me.";
-    const charactersArray = text.split("");
-
-    // Map characters to JSX elements with random positioning
-    const characterElements = charactersArray.map((char, index) => (
-      <span
-        key={index}
-        className="floating-char"
-        style={{
-          top: randomPosition(),
-          left: randomPosition(),
-          transitionDelay: `${index * 0.05}s`, // Delay transition for each character
-        }}
-      >
-        {char}
-      </span>
-    ));
-
-    // Set the characters state
-    setCharacters(characterElements);
-  }, []);
-
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".section-div");
 
@@ -71,7 +38,7 @@ const Section = () => {
     <div className="section-container">
       <div>
         <div className="section-title">
-          Gather 'round, folks, for the epic tale of me.
+          Gather 'round, folks, for the epic tale of ME!
         </div>
         <div className="section-div-container">
           <div className="section-div">
