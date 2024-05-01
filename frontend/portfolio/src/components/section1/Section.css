@@ -16,6 +16,7 @@
     position: relative;
     font-size: 50px;
     text-align: center;
+    font-weight: bold;
   }
   .section-div-container{
     display: flex;
