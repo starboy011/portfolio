@@ -14,11 +14,15 @@
   }
   .section-div{
     background: linear-gradient(135deg, #1F51FF, #FF5733);
-    opacity: 0.5;
     height: 400px;
     width: 400px;
+    opacity: 0.2;
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+    transition: opacity 1s;
+  }
+  .section-div.animate {
+    opacity: 0.8;
   }
