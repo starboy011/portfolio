@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Section.css"; // Import CSS file
+import "./Section.css";
 
 const Section = () => {
   useEffect(() => {
