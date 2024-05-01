@@ -3,7 +3,6 @@
     background-image: url('./section1img.jpeg');
     background-size: cover; 
     background-position: center;
-    opacity: 0.5;
   }
   .section-div-container{
     display: flex;
@@ -22,6 +21,28 @@
     margin-right: 10px;
     margin-top: 10px;
     transition: opacity 1s;
+  }
+  .section-div-title{
+    text-align: center;
+    background: none;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .section-div-title p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255)); /* Background gradient */
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+    text-shadow:
+      -1px -1px 0 #ffffff,  
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+      1px 1px 0 #000000;
   }
   .section-div.animate {
     opacity: 0.5;
@@ -46,7 +67,7 @@
     }
     to {
       transform: translateX(0);
-      opacity: 0.5;
+      opacity: 0.8;
     }
   }
   
@@ -57,7 +78,7 @@
     }
     to {
       transform: translateY(0);
-      opacity: 0.5;
+      opacity: 0.8;
     }
   }
   
@@ -68,7 +89,7 @@
     }
     to {
       transform: translateX(0);
-      opacity: 0.5;
+      opacity: 0.8;
     }
   }
   @media screen and (max-width: 600px) {
@@ -86,7 +107,7 @@
       background-position: center;
       justify-content: center;
       align-items: center;
-      opacity: 0.5;
+      /* opacity: 0.5; */
     }
     .section-div-container{
       justify-content: center;
@@ -109,7 +130,7 @@
         transform: translateY(100%);
       }
       to {
-        opacity: 0.5;
+        background-color: rgba(255, 255, 255, 0.5);
         transform: translateY(0);
       }
     }
@@ -120,7 +141,7 @@
         transform: translateY(50%);
       }
       to {
-        opacity: 0.5;
+        background-color: rgba(255, 255, 255, 0.5);
         transform: translateY(0);
       }
     }

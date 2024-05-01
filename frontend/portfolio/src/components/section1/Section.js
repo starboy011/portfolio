@@ -37,9 +37,21 @@ const Section = () => {
   return (
     <div className="section-container">
       <div className="section-div-container">
-        <div className="section-div"></div>
-        <div className="section-div"></div>
-        <div className="section-div"></div>
+        <div className="section-div">
+          <div className="section-div-title">
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div className="section-div">
+          <div className="section-div-title">
+            <p>Android/IOS Developer</p>
+          </div>
+        </div>
+        <div className="section-div">
+          <div className="section-div-title">
+            <p>Backend Developer</p>
+          </div>
+        </div>
       </div>
     </div>
   );
