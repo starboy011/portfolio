@@ -16,7 +16,7 @@
     background: linear-gradient(135deg, #1F51FF, #FF5733);
     height: 400px;
     width: 400px;
-    opacity: 0.2;
+    opacity: 0;
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -24,5 +24,104 @@
     transition: opacity 1s;
   }
   .section-div.animate {
-    opacity: 0.8;
+    opacity: 0.5;
+  }
+
+  .animate-left {
+    animation: animateLeft 1s ease forwards;
+  }
+  
+  .animate-bottom {
+    animation: animateBottom 1s ease forwards;
+  }
+  
+  .animate-right {
+    animation: animateRight 1s ease forwards;
+  }
+  
+  @keyframes animateLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes animateBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes animateRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0.5;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .section-div {
+      position: relative;
+      transform: none;
+      margin-top: 50px;
+      height: 400px;
+      width: 95vw; 
+    }
+    .section-container {
+      height: 190vh;
+      background-image: url('./section1img.jpeg');
+      background-size: cover; 
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.5;
+    }
+    .section-div-container{
+      justify-content: center;
+      align-items: center;
+      display:contents;
+      height: 190vh;
+    }
+    .animate-left,
+    .animate-right {
+      animation: animateVertical 1s ease forwards;
+    }
+  
+    .animate-bottom {
+      animation: animateBottom 1s ease forwards;
+    }
+  
+    @keyframes animateVertical {
+      from {
+        opacity: 0;
+        transform: translateY(100%);
+      }
+      to {
+        opacity: 0.5;
+        transform: translateY(0);
+      }
+    }
+  
+    @keyframes animateBottom {
+      from {
+        opacity: 0;
+        transform: translateY(50%);
+      }
+      to {
+        opacity: 0.5;
+        transform: translateY(0);
+      }
+    }
   }

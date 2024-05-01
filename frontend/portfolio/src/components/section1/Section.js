@@ -11,8 +11,20 @@ const Section = () => {
         const isVisible = rect.top < window.innerHeight - 50;
         if (isVisible) {
           div.classList.add("animate");
+          if (index === 0) {
+            div.classList.add("animate-left");
+          } else if (index === 1) {
+            div.classList.add("animate-bottom");
+          } else if (index === 2) {
+            div.classList.add("animate-right");
+          }
         } else {
-          div.classList.remove("animate");
+          div.classList.remove(
+            "animate",
+            "animate-left",
+            "animate-bottom",
+            "animate-right"
+          );
         }
       });
     };
