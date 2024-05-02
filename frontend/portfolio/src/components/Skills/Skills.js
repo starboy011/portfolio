@@ -20,7 +20,7 @@ const Skills = () => {
             "animate-top-right1",
             "animate-bottom-right1",
             "animate-top-left1",
-            "animate-top-left1",
+            "animate-bottom-right1",
             "animate-bottom-right1",
             "animate-bottom-right1",
             "animate-top-left1",
