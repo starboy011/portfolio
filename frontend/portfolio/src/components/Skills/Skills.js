@@ -18,6 +18,14 @@ import KafkaImage from "./Kafka.png";
 import GrafanaImage from "./Grafana.png";
 import NewrelicImage from "./Newrelic.png";
 import PostmanImage from "./Postman.png";
+import ApiImage from "./Api.png";
+import AwsImage from "./Aws.png";
+import Awss3Image from "./Awss3.png";
+import Azure3Image from "./Azure.png";
+import Apigateway3Image from "./Apigateway.png";
+import Jwttoken3Image from "./Jwttoken.png";
+import VscodeImage from "./Vscode.png";
+import AndroidstudioImage from "./Androidstudio.png";
 const Skills = () => {
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".skillcontainer");
@@ -142,30 +150,30 @@ const Skills = () => {
             <SkillBox image={PostmanImage} title="Postman" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={ApiImage} title="API Integration" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={AwsImage} title="AWS" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={Awss3Image} title="AWS S3" />
           </div>
         </div>
         <div className="row">
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={Azure3Image} title="Azure" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={Apigateway3Image} title="API Gateway" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={Jwttoken3Image} title="JWT Token" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={VscodeImage} title="VS Code" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={AndroidstudioImage} title="Android Studio" />
           </div>
         </div>
       </div>
