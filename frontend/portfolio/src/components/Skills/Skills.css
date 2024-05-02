@@ -1,10 +1,17 @@
-.container{
+.container {
     height: 100vh;
-}
-.skilltitlecontainer{
+    background-image: url('./skillsbackgroundimage.jpeg');
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .skilltitlecontainer {
     height: 50px;
     font-size: 50px;
     text-align: center;
-    background-color: aliceblue;
-    color: black;
-}
+    color: white;
+  }
+  .body{
+    height: 95vh;
+    /* background-color: blueviolet; */
+  }
