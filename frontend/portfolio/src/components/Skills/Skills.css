@@ -150,4 +150,12 @@
       opacity: 0.8;
     }
   }
+  @media screen and (max-width: 700px) {
+    .skillcontainer{
+      background: transparent;
+      height: 80px;
+      width: 80px;
+      opacity: 0;
+    }
+  }
   
