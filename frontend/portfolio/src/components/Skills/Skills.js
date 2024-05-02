@@ -13,6 +13,8 @@ import ReactjsImage from "./Reactjs.png";
 import ReactnativeImage from "./Reactnative.png";
 import SqlImage from "./Sql.png";
 import MongodbImage from "./Mongodb.png";
+import RedisImage from "./Redis.png";
+import KafkaImage from "./Kafka.png";
 const Skills = () => {
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".skillcontainer");
@@ -120,10 +122,10 @@ const Skills = () => {
             <SkillBox image={MongodbImage} title="MongoDb" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={RedisImage} title="Redis" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={KafkaImage} title="Kafka" />
           </div>
           <div className="skillcontainer">
             <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
