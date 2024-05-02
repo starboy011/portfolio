@@ -60,11 +60,11 @@
       1px 1px 0 #000000;
   }
   .section-div p1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: none;
     font-size: 25px;
-    height: 100px;
     color: black;
+    font-weight: bold;
   }
   .section-div-body {
     width: 390px;

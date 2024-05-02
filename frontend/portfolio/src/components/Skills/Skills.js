@@ -6,6 +6,7 @@ const Skills = () => {
       <div className="skilltitlecontainer">
         <p>SKILLS!</p>
       </div>
+      <div className="body"></div>
     </div>
   );
 };
