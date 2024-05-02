@@ -58,10 +58,10 @@ const Skills = () => {
             "animate-top-left1",
             "animate-bottom-right1",
             "animate-top-left1",
+            "animate-top-right1",
             "animate-top-left1",
             "animate-top-right1",
-            "animate-bottom-right1",
-            "animate-top-right1",
+            "animate-top-left1",
           ];
           div.classList.add(classesToAdd[index]);
         } else {
