@@ -33,7 +33,7 @@ const Skills = () => {
     const handleScroll = () => {
       sectionDivs.forEach((div, index) => {
         const rect = div.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight - 50;
+        const isVisible = rect.top < window.innerHeight;
         if (isVisible) {
           div.classList.add("animate");
           const classesToAdd = [
