@@ -6,6 +6,13 @@ import CImage from "./C.png";
 import GoImage from "./Go.png";
 import JavaImage from "./Java.jpeg";
 import PhpImage from "./Php.png";
+import HtmlImage from "./Html.png";
+import CssImage from "./Css.png";
+import JavascriptImage from "./Javascript.png";
+import ReactjsImage from "./Reactjs.png";
+import ReactnativeImage from "./Reactnative.png";
+import SqlImage from "./Sql.png";
+import MongodbImage from "./Mongodb.png";
 const Skills = () => {
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".skillcontainer");
@@ -90,27 +97,27 @@ const Skills = () => {
         </div>
         <div className="row">
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={HtmlImage} title="Html" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={CssImage} title="Css" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={JavascriptImage} title="Java Script" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={ReactjsImage} title="ReactJs" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={ReactnativeImage} title="React Native" />
           </div>
         </div>
         <div className="row">
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={SqlImage} title="SQL" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={MongodbImage} title="MongoDb" />
           </div>
           <div className="skillcontainer">
             <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
