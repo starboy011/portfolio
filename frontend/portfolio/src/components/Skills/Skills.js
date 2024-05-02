@@ -15,6 +15,9 @@ import SqlImage from "./Sql.png";
 import MongodbImage from "./Mongodb.png";
 import RedisImage from "./Redis.png";
 import KafkaImage from "./Kafka.png";
+import GrafanaImage from "./Grafana.png";
+import NewrelicImage from "./Newrelic.png";
+import PostmanImage from "./Postman.png";
 const Skills = () => {
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".skillcontainer");
@@ -128,15 +131,15 @@ const Skills = () => {
             <SkillBox image={KafkaImage} title="Kafka" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={GrafanaImage} title="Grafana" />
           </div>
         </div>
         <div className="row">
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={NewrelicImage} title="Newrelic" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+            <SkillBox image={PostmanImage} title="Postman" />
           </div>
           <div className="skillcontainer">
             <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
