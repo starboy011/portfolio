@@ -1,5 +1,11 @@
 import React, { useEffect } from "react";
 import "./Skills.css";
+import SkillBox from "./SkillBox";
+import CPlusPlusImage from "./C++.png";
+import CImage from "./C.png";
+import GoImage from "./Go.png";
+import JavaImage from "./Java.jpeg";
+import PhpImage from "./Php.png";
 const Skills = () => {
   useEffect(() => {
     const sectionDivs = document.querySelectorAll(".skillcontainer");
@@ -66,39 +72,89 @@ const Skills = () => {
       </div>
       <div className="body">
         <div className="row">
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
+          <div className="skillcontainer">
+            <SkillBox image={CPlusPlusImage} title="C++" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image={CImage} title="C" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image={GoImage} title="Go" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image={JavaImage} title="Java" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image={PhpImage} title="Php" />
+          </div>
         </div>
         <div className="row">
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
         </div>
         <div className="row">
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
         </div>
         <div className="row">
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
         </div>
         <div className="row">
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
-          <div className="skillcontainer"></div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
+          <div className="skillcontainer">
+            <SkillBox image="path_to_your_image.jpg" title="Your Skill Title" />
+          </div>
         </div>
       </div>
     </div>

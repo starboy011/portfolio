@@ -16,7 +16,7 @@
     /* background-color: blueviolet; */
   }
   .skillcontainer{
-    background-color: aqua;
+    background: transparent;
     height: 125px;
     width: 125px;
     opacity: 0.1;
