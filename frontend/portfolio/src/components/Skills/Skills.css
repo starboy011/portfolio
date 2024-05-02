@@ -15,3 +15,16 @@
     height: 95vh;
     /* background-color: blueviolet; */
   }
+  .skillcontainer{
+    background-color: aqua;
+    height: 125px;
+    width: 125px;
+    opacity: 0.1;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }

@@ -6,7 +6,43 @@ const Skills = () => {
       <div className="skilltitlecontainer">
         <p>SKILLS!</p>
       </div>
-      <div className="body"></div>
+      <div className="body">
+        <div className="row">
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+        </div>
+        <div className="row">
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+        </div>
+        <div className="row">
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+        </div>
+        <div className="row">
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+        </div>
+        <div className="row">
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+          <div className="skillcontainer"></div>
+        </div>
+      </div>
     </div>
   );
 };
