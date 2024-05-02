@@ -20,7 +20,7 @@ import NewrelicImage from "./Newrelic.png";
 import PostmanImage from "./Postman.png";
 import ApiImage from "./Api.png";
 import AwsImage from "./Aws.png";
-import Awss3Image from "./Awss3.png";
+import DockerImage from "./Docker.png";
 import Azure3Image from "./Azure.png";
 import Apigateway3Image from "./Apigateway.png";
 import Jwttoken3Image from "./Jwttoken.png";
@@ -156,7 +156,7 @@ const Skills = () => {
             <SkillBox image={AwsImage} title="AWS" />
           </div>
           <div className="skillcontainer">
-            <SkillBox image={Awss3Image} title="AWS S3" />
+            <SkillBox image={DockerImage} title="Docker" />
           </div>
         </div>
         <div className="row">
