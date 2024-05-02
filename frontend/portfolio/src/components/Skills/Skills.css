@@ -19,7 +19,7 @@
     background: transparent;
     height: 125px;
     width: 125px;
-    opacity: 0.1;
+    opacity: 0;
   }
   .row{
     display: flex;
