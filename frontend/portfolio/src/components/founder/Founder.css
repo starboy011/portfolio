@@ -1,6 +1,6 @@
 .foundercontainer{
     height: 110vh;
-    background-image: url('../Skills//skillsbackgroundimage.jpeg');
+    background-image: url('./founderbackgroundimage.jpeg');
     background-size: cover; 
     background-position: center;
 }
