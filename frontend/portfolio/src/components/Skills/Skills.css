@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    height: 110vh;
     background-image: url('./skillsbackgroundimage.jpeg');
     background-size: cover; 
     background-position: center;
@@ -28,3 +28,126 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .skillcontainer.animate {
+    opacity: 0.5;
+  }
+  .animate-left1 {
+    animation: animateLeft1 1s ease forwards;
+  }
+  
+  .animate-right1 {
+    animation: animateRight1 1s ease forwards;
+  }
+  
+  .animate-top1 {
+    animation: animateTop1 1s ease forwards;
+  }
+  
+  .animate-bottom1 {
+    animation: animateBottom1 1s ease forwards;
+  }
+  
+  .animate-top-left1 {
+    animation: animateTopLeft1 1s ease forwards;
+  }
+  
+  .animate-top-right1 {
+    animation: animateTopRight1 1s ease forwards;
+  }
+  
+  .animate-bottom-left1 {
+    animation: animateBottomLeft1 1s ease forwards;
+  }
+  
+  .animate-bottom-right1 {
+    animation: animateBottomRight1 1s ease forwards;
+  }
+  
+  @keyframes animateLeft1 {
+    from {
+      transform: translateX(-125%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateRight1 {
+    from {
+      transform: translateX(125%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateTop1 {
+    from {
+      transform: translateY(-125%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateBottom1 {
+    from {
+      transform: translateY(125%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateTopLeft1 {
+    from {
+      transform: translate(-125%, -125%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateTopRight1 {
+    from {
+      transform: translate(125%, -125%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateBottomLeft1 {
+    from {
+      transform: translate(-125%, 125%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 0.8;
+    }
+  }
+  
+  @keyframes animateBottomRight1 {
+    from {
+      transform: translate(125%, 125%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 0.8;
+    }
+  }
+  
