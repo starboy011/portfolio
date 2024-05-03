@@ -41,6 +41,7 @@ export const Contact = () => {
               <p>I'd love to here from</p>
               <p1>YOU!</p1>
             </div>
+            <div className="contactgif"></div>
           </div>
           <div className="form">
             <div className="heading">
