@@ -7,6 +7,14 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const name = form.current.user_name.value.trim();
+    const email = form.current.user_email.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (!name || !email || !message) {
+      alert("Please fill in all fields.");
+      return;
+    }
 
     emailjs
       .sendForm("service_ye0fs09", "template_i9qoaru", form.current, {
@@ -15,6 +23,8 @@ export const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          alert("Mail sent successfully");
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -70,6 +80,3 @@ export const Contact = () => {
     </form>
   );
 };
-
-// .sendForm("service_ye0fs09", "template_i9qoaru", form.current, {
-//     publicKey: "DtuRo0tlW_Q5W7pk5",
