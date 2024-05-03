@@ -126,10 +126,13 @@
 }
 .beforesend{
     width: 150%;
+    background-color: aqua;
 }
 .send{
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: transparent;
+    border: none;
     font-size: 25px;
     color: black;
     transition: font-size  1s; 
