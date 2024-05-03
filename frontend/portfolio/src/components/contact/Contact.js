@@ -22,7 +22,12 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contactcontainer"></div>
+    <div className="contactcontainer">
+      <div className="formcontainer">
+        <div className="contactimage"></div>
+        <div className="form"></div>
+      </div>
+    </div>
     // <form ref={form} onSubmit={sendEmail}>
     //   <label>Name</label>
     //   <input type="text" name="user_name" />

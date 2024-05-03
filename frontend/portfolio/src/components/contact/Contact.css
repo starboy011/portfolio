@@ -1,4 +1,28 @@
 .contactcontainer{
-    background-color: aliceblue;
+    background-color: rgb(249, 255, 232);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formcontainer{
+    height: 90vh;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+}
+.contactimage{
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    width: 40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width:60%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
