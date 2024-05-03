@@ -54,6 +54,13 @@ export const Contact = () => {
                 className="email"
               />
             </div>
+            <div className="contentcontainer">
+              <textarea name="message" className="message" />
+            </div>
+            <div className="sendcontainer">
+              <div className="beforesend"></div>
+              <p className="send">Send</p>
+            </div>
           </div>
         </div>
       </div>
