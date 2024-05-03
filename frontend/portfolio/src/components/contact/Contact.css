@@ -26,3 +26,72 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.contacttitle{
+    width: 100%;
+    height: 100px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contacttitle p{
+    color:  rgb(255, 255, 255);
+    font-size: 40px;
+    font-style: normal;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.contacttitle p1{
+    color:  rgb(255, 255, 255);
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 100;
+}
+.heading{
+    width: 100%;
+    height: 40px;
+    margin-top: 150px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+}
+.text{
+    width: 200px;
+    margin-left: 100px;
+}
+.effect{
+    width: 150px;
+    height: 18px;
+    background-color:rgb(98, 134, 0);
+    margin-left: 20%;
+    margin-top: -2.3%;
+    opacity: 0.5;
+}
+.mail{
+    height: 75%;
+    width: 100%;
+}
+.name, .email{
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: width 1s; 
+    border-color: rgb(229, 255, 158);
+}
+
+.contentcontainer{
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.name:hover, .email:hover {
+    width: 85%;
+    border-color: rgb(98, 134, 0);
+    cursor: pointer;
+}
