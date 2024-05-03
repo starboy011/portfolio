@@ -1,5 +1,6 @@
 import "./app.scss";
 import Skills from "./components/Skills/Skills";
+import { Contact } from "./components/contact/Contact";
 import Founder from "./components/founder/Founder";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Section />
       <Skills />
       <Founder />
+      <Contact />
     </div>
   );
 }
