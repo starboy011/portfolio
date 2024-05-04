@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Founder.css";
+
 const Founder = () => {
-  return <div className="foundercontainer">Rishav</div>;
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.querySelector(".foundercontainer");
+      const viewportHeight = window.innerHeight;
+      const elementTop = element.getBoundingClientRect().top;
+
+      if (elementTop < viewportHeight * 0.8) {
+        setIsInView(true);
+      } else {
+        setIsInView(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return <div className={`foundercontainer ${isInView ? "scroll" : ""}`}></div>;
 };
 
 export default Founder;
