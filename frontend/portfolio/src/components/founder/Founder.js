@@ -10,7 +10,7 @@ const Founder = () => {
       const viewportHeight = window.innerHeight;
       const elementTop = element.getBoundingClientRect().top;
 
-      if (elementTop < viewportHeight * 0.8) {
+      if (elementTop < viewportHeight * 1) {
         setIsInView(true);
       } else {
         setIsInView(false);

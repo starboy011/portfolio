@@ -13,12 +13,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    transition: transform 5s ease; /* Smooth transition for transform property */
+    transition: transform 3s ease; /* Smooth transition for transform property */
 }
 
 .foundercontainer::after {
     background: linear-gradient(135deg, #000000, #ffffff);
-    transform: translateY(-100%);
+    transform: translateY(100%);
+    background-image: url('./founderbackgroundimage.jpeg');
+    background-size: cover; 
+    background-position: center;
 }
 
 .foundercontainer.scroll::before,
