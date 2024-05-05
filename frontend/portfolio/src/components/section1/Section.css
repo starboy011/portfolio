@@ -48,7 +48,6 @@
     font-size: 40px;
   }
   .section-div-title p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-clip: text; 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
@@ -61,7 +60,6 @@
   }
   
   .section-div p1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: none;
     font-size: 25px;
     color: black;
