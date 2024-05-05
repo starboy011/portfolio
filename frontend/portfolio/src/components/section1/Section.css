@@ -133,7 +133,7 @@
     }
     .section-container {
       height: 250vh;
-      background-image: url('./section1img.jpeg');
+      background: linear-gradient(108deg,#0c0c1d, #111132);
       background-size: cover; 
       background-position: center;
       justify-content: center;
