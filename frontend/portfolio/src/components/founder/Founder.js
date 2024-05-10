@@ -25,7 +25,11 @@ const Founder = () => {
     };
   }, []);
 
-  return <div className={`foundercontainer ${isInView ? "scroll" : ""}`}></div>;
+  return (
+    <div className={`foundercontainer ${isInView ? "scroll" : ""}`}>
+      <div className="foundercontainer1"></div>
+    </div>
+  );
 };
 
 export default Founder;
