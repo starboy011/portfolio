@@ -1,6 +1,6 @@
 .foundercontainer {
     position: relative;
-    height: 100vh;
+    height: 120vh;
     background-color: black;
     overflow: hidden; /* Hides overflow content */
 }
@@ -17,9 +17,9 @@
 }
 
 .foundercontainer::after {
-    background: linear-gradient(135deg, #000000, #ffffff);
+    background: linear-gradient(180deg, #000000,#5e5e5e,#a2a2a2,#cdcdcd,#ffffff,#ffffff, #ffffff);
     transform: translateY(100%);
-    background-image: url('./founderbackgroundimage.jpeg');
+    background-color: white;
     background-size: cover; 
     background-position: center;
 }
