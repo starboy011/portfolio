@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Founder.css";
-
+import img1 from "./img1.jpeg";
+import img2 from "./img2.jpeg";
+import img4 from "./img4.jpeg";
+import img5 from "./img5.jpeg";
+import video1 from "./video1.mp4";
+import video2 from "./video2.mp4";
 const Founder = () => {
   const [isInView, setIsInView] = useState(false);
   useEffect(() => {
@@ -64,12 +69,74 @@ const Founder = () => {
     <div className={`foundercontainer ${isInView ? "scroll" : ""}`}>
       <div className="foundercontainer1">
         <div className="erpximagecontainer">
-          <div className="screenshot"></div>
-          <div className="screenshot"></div>
-          <div className="screenshot"></div>
-          <div className="screenshot"></div>
-          <div className="screenshot"></div>
-          <div className="screenshot"></div>
+          <div
+            className="screenshot"
+            style={{
+              backgroundImage: `url(${img1})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div
+            className="screenshot"
+            style={{
+              backgroundImage: `url(${img2})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div className="screenshot">
+            <video
+              autoPlay
+              loop
+              muted
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                borderRadius: "10px",
+              }}
+            >
+              <source src={video2} type="video/mp4" />
+            </video>
+          </div>
+          <div className="screenshot">
+            <video
+              autoPlay
+              loop
+              muted
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                borderRadius: "10px",
+              }}
+            >
+              <source src={video1} type="video/mp4" />
+            </video>
+          </div>
+          <div
+            className="screenshot"
+            style={{
+              backgroundImage: `url(${img4})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div
+            className="screenshot"
+            style={{
+              backgroundImage: `url(${img5})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
         </div>
       </div>
     </div>
