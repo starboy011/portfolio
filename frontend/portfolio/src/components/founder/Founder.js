@@ -138,6 +138,9 @@ const Founder = () => {
             }}
           ></div>
         </div>
+        <div className="foundertitle">
+          <p>Founder of ERPX</p>
+        </div>
       </div>
     </div>
   );
