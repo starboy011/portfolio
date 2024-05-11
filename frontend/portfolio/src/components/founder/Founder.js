@@ -141,6 +141,21 @@ const Founder = () => {
         <div className="foundertitle">
           <p>Founder of ERPX</p>
         </div>
+        <div className="aboutheadercontainer">
+          <p>
+            About this App :
+            <div className="aboutdescription">
+              Introducing the ultimate business management solution, designed to
+              revolutionize the way you operate your enterprise.
+            </div>
+          </p>
+        </div>
+        <div className="abouttheappcontainer">
+          <div className="subheadingcontainer">
+            <p>Sales Module:</p>
+          </div>
+          <div className="subcontentcontainer"></div>
+        </div>
       </div>
     </div>
   );
