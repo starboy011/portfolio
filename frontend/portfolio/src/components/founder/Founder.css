@@ -53,3 +53,98 @@
     position: relative;
     z-index: 2;
 }
+.erpximagecontainer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.screenshot{
+    height: 100%;
+    width: 15%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: #6f6f6f;
+    opacity: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.animate-right1 {
+    animation: animateRight1 .5s ease forwards;
+}
+.animate-right2 {
+    animation: animateRight2 1s ease forwards;
+}
+.animate-right3 {
+    animation: animateRight3 1.5s ease forwards;
+}
+.animate-right4 {
+    animation: animateRight4 2s ease forwards;
+}
+.animate-right5 {
+    animation: animateRight5 2.5s ease forwards;
+}
+.animate-right6 {
+    animation: animateRight6 3s ease forwards;
+}
+@keyframes animateRight1 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes animateRight2 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes animateRight3 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes animateRight4 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes animateRight5 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes animateRight6 {
+    from {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
