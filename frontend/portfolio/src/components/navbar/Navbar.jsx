@@ -5,6 +5,7 @@ import github from "./github.jpg"
 import gfg from "./gfg.jpg"
 import linkedin from "./linkedin.jpg"
 import drive from "./drive.png"
+
 const Navbar = () => {
   return (
     <div className="navbar">
