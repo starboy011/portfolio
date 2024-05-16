@@ -205,3 +205,11 @@
     margin-top: 0.4%;
     margin-left: 10px;
   }
+  .googleplay{
+    width: 50px;
+    height: 50px;
+    background-size: cover; 
+    background-position: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }

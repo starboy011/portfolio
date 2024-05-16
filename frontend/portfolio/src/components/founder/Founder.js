@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Founder.css";
 import img1 from "./img1.jpeg";
 import img2 from "./img2.jpeg";
-import img4 from "./img4.jpeg";
+import googleplay from "./googleplay.png";
 import img5 from "./img5.jpeg";
 import video1 from "./video1.mp4";
 import video2 from "./video2.mp4";
@@ -140,6 +140,14 @@ const Founder = () => {
         </div>
         <div className="foundertitle">
           <p>Founder of ERPX</p>
+          <a href="https://play.google.com/store/apps/details?id=com.starboy011.erp">
+            <div
+              className="googleplay"
+              style={{
+                backgroundImage: `url(${googleplay})`,
+              }}
+            ></div>
+          </a>
         </div>
         <div className="aboutheadercontainer">
           <p>
