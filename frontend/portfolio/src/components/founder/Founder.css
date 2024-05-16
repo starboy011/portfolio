@@ -212,4 +212,5 @@
     background-position: center;
     margin-left: 10px;
     cursor: pointer;
+    opacity: 0;
   }
