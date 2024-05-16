@@ -165,6 +165,73 @@ const Founder = () => {
               pipeline and drive growth.
             </li>
           </div>
+          <div className="subheadingcontainer">
+            <p>Inventory Module:</p>
+          </div>
+          <div className="subcontentcontainer">
+            <li> Take control of your inventory like never before.</li>
+            <li>
+              Our advanced inventory management system allows you to monitor
+              stock levels, track assets, and optimize replenishment strategies
+              to ensure seamless operations and minimize stockouts.
+            </li>
+          </div>
+          <div className="subheadingcontainer">
+            <p>Production Module:</p>
+          </div>
+          <div className="subcontentcontainer">
+            <li> Efficiency is key to success in manufacturing.</li>
+            <li>
+              With our production module, you can orchestrate your production
+              processes with precision, from planning and scheduling to resource
+              allocation and quality control, ensuring timely delivery of
+              high-quality products.
+            </li>
+          </div>
+          <div className="subheadingcontainer">
+            <p>Payroll Module:</p>
+          </div>
+          <div className="subcontentcontainer">
+            <li>
+              {" "}
+              Simplify your payroll operations and ensure compliance with ease.
+            </li>
+            <li>
+              Our payroll module automates payroll processing, including salary
+              calculations, deductions, and tax filings, saving you time and
+              reducing the risk of errors.
+            </li>
+          </div>
+          <div className="subheadingcontainer">
+            <p>Finance Module:</p>
+          </div>
+          <div className="subcontentcontainer">
+            <li>
+              {" "}
+              Gain deeper insights into your financial health and make informed
+              decisions.
+            </li>
+            <li>
+              Our finance module provides comprehensive financial reporting,
+              budgeting, and forecasting tools, enabling you to monitor cash
+              flow, track expenses, and drive profitability.
+            </li>
+          </div>
+          <div className="subheadingcontainer">
+            <p>GST and Billing:</p>
+          </div>
+          <div className="subcontentcontainer">
+            <li>
+              {" "}
+              Stay compliant and streamline your invoicing process with our
+              integrated GST and billing features.
+            </li>
+            <li>
+              Generate GST-compliant invoices, manage tax rates, and track
+              payments effortlessly, ensuring smooth transactions and regulatory
+              compliance.
+            </li>
+          </div>
         </div>
       </div>
     </div>

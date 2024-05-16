@@ -1,6 +1,6 @@
 .foundercontainer {
     position: relative;
-    height: 140vh;
+    height: 150vh;
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     margin-top: 20px;
@@ -182,14 +182,17 @@
     height: 5%;
     align-items: center;
     display: flex;
+    
   }
   .subheadingcontainer p{
     font-size: 20px;
     color: black;
     margin-left: 10px;
+    font-size: 30px;
   }
   .subcontentcontainer{
-    height: 10%;
+    height: 15%;
+    margin-top: 5px;
   }
   .subcontentcontainer li{
     margin-left: 10px;
