@@ -9,12 +9,14 @@ import video2 from "./video2.mp4";
 const Founder = () => {
   const [isInView, setIsInView] = useState(false);
   useEffect(() => {
-    const sectionDivs = document.querySelectorAll(".screenshot,.googleplay");
+    const sectionDivs = document.querySelectorAll(
+      ".screenshot,.googleplay, .subheadingcontainer, .subcontentcontainer li"
+    );
 
     const handleScroll = () => {
       sectionDivs.forEach((div, index) => {
         const rect = div.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight * 0.8;
+        const isVisible = rect.top < window.innerHeight * 0.95;
         if (isVisible) {
           div.classList.add("animate");
           const classesToAdd = [
@@ -24,6 +26,21 @@ const Founder = () => {
             "animate-right4",
             "animate-right5",
             "animate-right6",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
+            "animate-right7",
           ];
           div.classList.add(classesToAdd[index]);
         } else {
@@ -34,7 +51,8 @@ const Founder = () => {
             "animate-right3",
             "animate-right4",
             "animate-right5",
-            "animate-right6"
+            "animate-right6",
+            "animate-right7"
           );
         }
       });
