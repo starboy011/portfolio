@@ -8,7 +8,7 @@ const Section = () => {
     const handleScroll = () => {
       sectionDivs.forEach((div, index) => {
         const rect = div.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight - 50;
+        const isVisible = rect.top < window.innerHeight + 100;
         if (isVisible) {
           div.classList.add("animate");
           if (index === 0) {
