@@ -78,6 +78,22 @@ const Founder = () => {
               backgroundRepeat: "no-repeat",
             }}
           ></div>
+          <div className="screenshot">
+            <video
+              autoPlay
+              loop
+              muted
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                borderRadius: "10px",
+              }}
+            >
+              <source src={video2} type="video/mp4" />
+            </video>
+          </div>
           <div
             className="screenshot"
             style={{
@@ -100,26 +116,10 @@ const Founder = () => {
                 borderRadius: "10px",
               }}
             >
-              <source src={video2} type="video/mp4" />
-            </video>
-          </div>
-          <div className="screenshot">
-            <video
-              autoPlay
-              loop
-              muted
-              style={{
-                position: "absolute",
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-                borderRadius: "10px",
-              }}
-            >
               <source src={video1} type="video/mp4" />
             </video>
           </div>
-          <div
+          {/* <div
             className="screenshot"
             style={{
               backgroundImage: `url(${img4})`,
@@ -127,7 +127,7 @@ const Founder = () => {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
             }}
-          ></div>
+          ></div> */}
           <div
             className="screenshot"
             style={{
@@ -154,7 +154,17 @@ const Founder = () => {
           <div className="subheadingcontainer">
             <p>Sales Module:</p>
           </div>
-          <div className="subcontentcontainer"></div>
+          <div className="subcontentcontainer">
+            <li>
+              {" "}
+              Maximize your revenue potential with our powerful sales module.
+            </li>
+            <li>
+              From lead management to order processing and invoicing, our
+              intuitive tools empower you to effectively manage your sales
+              pipeline and drive growth.
+            </li>
+          </div>
         </div>
       </div>
     </div>
