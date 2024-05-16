@@ -9,7 +9,7 @@ import video2 from "./video2.mp4";
 const Founder = () => {
   const [isInView, setIsInView] = useState(false);
   useEffect(() => {
-    const sectionDivs = document.querySelectorAll(".screenshot");
+    const sectionDivs = document.querySelectorAll(".screenshot,.googleplay");
 
     const handleScroll = () => {
       sectionDivs.forEach((div, index) => {
