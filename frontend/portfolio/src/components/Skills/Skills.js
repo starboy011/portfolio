@@ -88,7 +88,7 @@ const Skills = () => {
   return (
     <div className="container">
       <div className="skilltitlecontainer">
-        <p>SKILLS!</p>
+        <p>SKILLS</p>
       </div>
       <div className="body">
         <div className="row">

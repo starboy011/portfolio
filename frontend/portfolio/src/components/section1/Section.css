@@ -69,6 +69,11 @@
     width: 390px;
     margin-left: 10px;
   }
+  .section-div-body li{
+    font-size: 25px;
+    color: #000000;
+    margin: 5px;
+  }
   .section-div.animate {
     opacity: 0.5;
   }

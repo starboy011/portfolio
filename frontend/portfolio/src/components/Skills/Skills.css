@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    height: 125vh;
     background-image: url('./skillsbackgroundimage.jpeg');
     background-size: cover; 
     background-position: center;
@@ -20,6 +20,7 @@
     height: 125px;
     width: 125px;
     opacity: 0;
+    margin: 25px;
   }
   .row{
     display: flex;
