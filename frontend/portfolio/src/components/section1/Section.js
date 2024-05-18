@@ -46,14 +46,19 @@ const Section = () => {
               <p>Web Developer</p>
             </div>
             <div className="section-div-body">
-              <p1>
+              <li>
                 Proficient in developing dynamic web applications using
                 cutting-edge technologies, including React.js, HTML, CSS, and
-                JavaScript. Demonstrated expertise in leveraging the latest
-                frontend frameworks to build responsive and interactive user
-                interfaces. Passionate about staying updated with emerging
-                trends and technologies in the web development landscape.
-              </p1>
+                JavaScript.
+              </li>
+              <li>
+                Demonstrated expertise in leveraging the latest frontend
+                frameworks to build responsive and interactive user interfaces.
+              </li>
+              <li>
+                Passionate about staying updated with emerging trends and
+                technologies in the web development landscape.
+              </li>
             </div>
           </div>
           <div className="section-div">
@@ -61,16 +66,22 @@ const Section = () => {
               <p>Android/IOS Developer</p>
             </div>
             <div className="section-div-body">
-              <p1>
+              <li>
                 Experienced in crafting cross-platform mobile applications for
-                both Android and iOS using React Native framework. Skilled in
-                harnessing the power of React Native to create seamless and
-                performant user experiences. Proficient in integrating native
-                device functionalities and leveraging SDKs for enhanced app
-                capabilities. Well-versed in version control systems for
-                collaborative development and ensuring code stability across
-                platforms.
-              </p1>
+                both Android and iOS using React Native framework.
+              </li>
+              <li>
+                Skilled in harnessing the power of React Native to create
+                seamless and performant user experiences.
+              </li>
+              <li>
+                Proficient in integrating native device functionalities and
+                leveraging SDKs for enhanced app capabilities.
+              </li>
+              <li>
+                Well-versed in version control systems for collaborative
+                development and ensuring code stability across platforms.
+              </li>
             </div>
           </div>
           <div className="section-div">
@@ -78,16 +89,19 @@ const Section = () => {
               <p>Backend Developer</p>
             </div>
             <div className="section-div-body">
-              <p1>
+              <li>
                 Specialized in architecting and implementing robust backend
                 solutions, leveraging microservices architecture for scalability
-                and flexibility. Proficient in building backend systems using
-                languages such as Go, Java, and C++, ensuring optimal
-                performance and reliability. Experienced in tackling complex
-                requirements and designing tailored solutions to meet business
-                needs effectively. adept in crafting efficient and maintainable
-                codebases for mission-critical applications.
-              </p1>
+                and flexibility.
+              </li>
+              <li>
+                Proficient in building backend systems using languages such as
+                Go, Java, and C++, ensuring optimal performance and reliability.
+              </li>
+              <li>
+                Experienced in tackling complex requirements and designing
+                tailored solutions to meet business needs effectively.
+              </li>
             </div>
           </div>
         </div>
