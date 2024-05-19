@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
   }
   .section-div-title p {
     background-clip: text; 
@@ -127,15 +127,24 @@
       position: relative;
       transform: none;
       margin-top: 50px;
-      height: 500px;
+      height: 540px;
       width: 95vw; 
+    }
+    .section-div-title{
+      text-align: center;
+      background: none;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 30px;
     }
     .section-div-body {
       width: 90vw;
       margin-left: 10px;
     }
     .section-container {
-      height: 250vh;
+      height: 270vh;
       background: linear-gradient(108deg,#0c0c1d, #111132);
       background-size: cover; 
       background-position: center;
