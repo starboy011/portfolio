@@ -1,4 +1,3 @@
-import Sidebar from "../sidebar/Sidebar"
 import "./navbar.scss"
 import {motion} from "framer-motion"
 import github from "./github.jpg"
