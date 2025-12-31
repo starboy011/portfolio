@@ -1,3 +1,4 @@
+
 import "./app.scss";
 import Skills from "./components/Skills/Skills";
 import { Contact } from "./components/contact/Contact";
